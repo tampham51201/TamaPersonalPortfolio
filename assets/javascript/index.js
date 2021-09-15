@@ -114,7 +114,7 @@ function handleClick() {
         }
 
         // get OffsetTop
-        console.log(scrollTop)
+
 
         function getOffSetTop(element) {
             return element.offsetTop - 100
@@ -124,7 +124,7 @@ function handleClick() {
         //     return element.offsetTop + element.offsetHeight
         // }
 
-        console.log(getOffSetTop(aboutEle))
+
 
 
         function indexItemNav() {
@@ -159,7 +159,7 @@ function handleClick() {
 
     }
 
-    // console.log($(".header__navbar-link:bth(1)"))
+
 
     //click modeloverplay for close model
     modelOver.onclick = () => {
@@ -613,7 +613,7 @@ function renderBlog() {
 
             cmt: [{
                 name: "PHAM THANH TAM",
-                img: "/assets/img/custom2.jpg",
+                img: "./assets/img/custom2.jpg",
                 datetime: "12 December, 2021 at 11:00 pm",
                 content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et tempora delectus eum, fugiat numquam maiores possimus mollitia vel laborum, dolores labore. Fugiat veritatis, sed officiis corporis delectus
                      incidunt obcaecati tempore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum .`
@@ -637,7 +637,7 @@ function renderBlog() {
 
             cmt: [{
                 name: "PHAM THANH TAM",
-                img: "/assets/img/custom2.jpg",
+                img: "./assets/img/custom2.jpg",
                 datetime: "12 December, 2021 at 11:00 pm",
                 content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et tempora delectus eum, fugiat numquam maiores possimus mollitia vel laborum, dolores labore. Fugiat veritatis, sed officiis corporis delectus
                      incidunt obcaecati tempore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum .`
@@ -661,7 +661,7 @@ function renderBlog() {
 
             cmt: [{
                 name: "PHAM THANH TAM",
-                img: "/assets/img/custom2.jpg",
+                img: "./assets/img/custom2.jpg",
                 datetime: "12 December, 2021 at 11:00 pm",
                 content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et tempora delectus eum, fugiat numquam maiores possimus mollitia vel laborum, dolores labore. Fugiat veritatis, sed officiis corporis delectus
                      incidunt obcaecati tempore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum .`
@@ -730,7 +730,7 @@ function renderBlog() {
             <div class="grid">
                 <div class="row">
                     <div class="col l-5">
-                        <img src="/assets/img/img-1.jpg" class="blog__details-img" alt="">
+                        <img src="${blogs[index].img}" class="blog__details-img" alt="">
                     </div>
                     <div class="col l-7">
                         <p class="blog__details-descriptive">
