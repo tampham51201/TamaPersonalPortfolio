@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- link font chữ -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- link icon -->
+    <link rel="icon" href="/assets/img/favicon2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Tama Personal Portfolio</title>
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="grid">
+
+            <!-- header -->
+            <header class="header">
+                <div class="grid wide header__container">
+
+                    <div class="header__logo">
+                        TAMA
+                    </div>
+
+                    <!-- navbar pc-->
+                    <nav class="header__navbar hide-on-tablet-mobile">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item active">
+                                <a href="#" class="header__navbar-link ">
+                                    <i class="fas fa-home header__navbar-icon"></i> HOME
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#about" class="header__navbar-link">
+                                    <i class="fas fa-user header__navbar-icon"></i> ABOUT
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#services" class="header__navbar-link">
+                                    <i class="fab fa-servicestack header__navbar-icon"></i> SERVICES
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#portfolio" class="header__navbar-link">
+                                    <i class="fas fa-briefcase header__navbar-icon"></i> PORTFOLIO
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#blog" class="header__navbar-link">
+                                    <i class="fas fa-pencil-alt header__navbar-icon"></i> BLOG
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#contact" class="header__navbar-link">
+                                    <i class="fas fa-address-book header__navbar-icon "></i> CONTACT
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--/ navbar pc-->
+
+                    <!-- navbar tablet & mobile -->
+                    <div class="header__mobile-tablet">
+                        <div class="header__mobile-tablet__overplay"></div>
+                        <div class="header__mobile-tablet-icon">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="header__mobile-tablet-nav">
+                            <div class="header__mobile-tablet-nav-close">
+                                CLOSE <i class="fas fa-times header__mobile-tablet-nav-close-icon"></i>
+                            </div>
+                            <ul class="header__mobile-tablet-nav-list">
+                                <li class="header__mobile-tablet-nav-item active">
+                                    <a href="#" class="header__mobile-tablet-nav-link">
+                                        <i class="fas fa-home header__mobile-tablet-item-icon"></i> HOME
+                                    </a>
+                                </li>
+                                <li class="header__mobile-tablet-nav-item">
+                                    <a href="#about" class="header__mobile-tablet-nav-link ">
+                                        <i class="fas fa-user header__mobile-tablet-item-icon"></i> ABOUT
+                                    </a>
+                                </li>
+                                <li class="header__mobile-tablet-nav-item">
+                                    <a href="#services" class="header__mobile-tablet-nav-link ">
+                                        <i class="fab fa-servicestack header__mobile-tablet-item-icon"></i> SERVICES
+                                    </a>
+                                </li>
+                                <li class="header__mobile-tablet-nav-item">
+                                    <a href="#portfolio" class="header__mobile-tablet-nav-link ">
+                                        <i class="fas fa-briefcase header__mobile-tablet-item-icon"></i> PORTFOLIO
+                                    </a>
+                                </li>
+                                <li class="header__mobile-tablet-nav-item">
+                                    <a href="#blog" class="header__mobile-tablet-nav-link ">
+                                        <i class="fas fa-pencil-alt header__mobile-tablet-item-icon"></i> BLOG
+                                    </a>
+                                </li>
+                                <li class="header__mobile-tablet-nav-item">
+                                    <a href="#contact" class="header__mobile-tablet-nav-link ">
+                                        <i class="fas fa-address-book header__mobile-tablet-item-icon"></i> CONTACT
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/navbar tablet & mobile -->
+
+                </div>
+            </header>
+            <!--/header -->
+
+            <!-- slider    -->
+            <div class="slider">
+                <div class="slider-banner">
+                    <img src="/assets/img/slider.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider__container">
+                    <div class="slider__logo">
+                        <img src="/assets/img/slider-logo.jpg" alt="" class="slider__logo-img">
+                    </div>
+                    <div class="slider__content">
+                        <h2>HI THERE!</h2>
+                        <span class="slider__content-heading">I'M                                 </span>
+                        <span class="slider__content-heading--primary">TAMA</span>
+                        <span class="slider__content-text">
+                            I'M UI/UX Designer and Developer with over 5+
+                             years of experience and beautiful web applications through carefully crafted design.
+                    </span>
+                        <ul class="slider__content-icon__list">
+
+                            <li class="slider__content-icon__item">
+                                <a href="" class="slider__content-icon__item-link">
+                                    <i class="fab fa-facebook-square slider__content-icon__item-icon"></i>
+                                </a>
+                            </li>
+                            <li class="slider__content-icon__item">
+                                <a href="" class="slider__content-icon__item-link">
+                                    <i class="fab fa-tiktok  slider__content-icon__item-icon"></i>
+                                </a>
+                            </li>
+                            <li class="slider__content-icon__item">
+                                <a href="" class="slider__content-icon__item-link">
+                                    <i class="fab fa-youtube  slider__content-icon__item-icon"></i>
+                                </a>
+                            </li>
+                            <li class="slider__content-icon__item">
+                                <a href="" class="slider__content-icon__item-link">
+                                    <i class="fab fa-github-square  slider__content-icon__item-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="slider__content-more">
+                            <a href="#about" class="slider__content-btn-link">
+                                <button class="slider__content-btn btn">
+                                <i class="fas fa-user slider__content-btn-icon"></i>
+                                MORE ABOUT ME
+                            </button>
+                            </a>
+                            <a href="#portfolio" class="slider__content-btn-link">
+                                <button class="slider__content-btn btn btn-primary"> 
+                                <i class="fab fa-servicestack slider__content-btn-icon"></i>
+                                MORE PORTFOLIO
+                            </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/slider    -->
+
+            <!-- container -->
+            <div class="container">
+
+                <!--==ABOUT ME== -->
+                <div id="about" class="about">
+                    <div class="grid wide">
+                        <div class="about__heading">
+                            <h2 class="about__heading-text">ABOUT</h2>
+                            <h2 class="about__heading-primary">ME</h2>
+                        </div>
+                        <div class="container__line">
+                            <div class="line-slide"></div>
+                        </div>
+
+                        <div class="about__content">
+                            <div class="row">
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="about__text">
+                                        <h4>HELLO! I'M </h4>
+                                        <span>PHAM THANH TAM</span>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley book.</p>
+                                        <a href="#" class="about__btn-link">
+                                            <button class="btn btn-primary about__btn ">
+                                                <i class="fas fa-download about__btn-icon "></i>DOWLOAD MY CV
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 c-12">
+                                    <div class="about-details">
+                                        <ul class="about-details__list">
+                                            <li class="about-details__item">
+                                                Name: <span>Pham Thanh Tam</span>
+                                            </li>
+                                            <li class="about-details__item">
+                                                Brithdate: <span>5 December 2001</span>
+                                            </li>
+                                            <li class="about-details__item">
+                                                Address: <span>Phu Ninh - Quang Nam</span>
+                                            </li>
+                                            <li class="about-details__item">
+                                                Experience: <span>Yet available</span>
+                                            </li>
+                                            <li class="about-details__item">
+                                                Job: <span>Student</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col l-3 m-6 c-12">
+                                    <div class="about-details">
+                                        <ul class="about-details__list">
+                                            <li class="about-details__item">
+                                                Phone: <a href="tel:0339045945">(+84) 339 045 945</a>
+                                            </li>
+                                            <li class="about-details__item">
+                                                E-mail: <a href="mailto:pttquangnam@gmail.com">pttquangnam@gmail.com</a>
+                                            </li>
+                                            <li class="about-details__item">
+                                                Skyoe: <span>Tampham51201</span>
+                                            </li>
+                                            <li class="about-details__item">
+                                                Language: <span>Vietnamese</span>
+                                            </li>
+                                            <li class="about-details__item">
+                                                Website: <span>Updating</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="about__content exp-edu">
+
+                            <h2 class="exp-edu__title">EXPERIENCE & EDUCATION</h2>
+                            <div class="row no-gutter">
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="grid">
+                                        <h2 class="exp-edu__title-list-box">EDUCATION</h2>
+                                        <div class="row no-gutters exp-edu__box">
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="exp-edu__box-content">
+                                                    <h3 class="exp-edu__box-title">COMPUTER SCIENCE</h3>
+                                                    <span class="exp-edu__box-andress"><i class="fa fa-book mr-2"></i>
+                                                            The University of Danang</span>
+                                                    <span class="exp-edu__box-time"><i class="fa fa-calendar mr-2"></i> Sept 2019 - May 2024
+                                                        </span>
+                                                    <p class="exp-edu__box-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut pariatur reprehenderit laudantium quos enim hic cupiditate quae aliquam eaque, nemo totam nisi. Illo neque ipsa odit tenetur assumenda a
+                                                        enim.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="exp-edu__box-content">
+                                                    <h3 class="exp-edu__box-title">COMPUTER SCIENCE</h3>
+                                                    <span class="exp-edu__box-andress"><i class="fa fa-book mr-2"></i>
+                                                            The University of Danang</span>
+                                                    <span class="exp-edu__box-time"><i class="fa fa-calendar mr-2"></i> Sept 2019 - May 2024
+                                                        </span>
+                                                    <p class="exp-edu__box-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut pariatur reprehenderit laudantium quos enim hic cupiditate quae aliquam eaque, nemo totam nisi. Illo neque ipsa odit tenetur assumenda a
+                                                        enim.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="exp-edu__box-content">
+                                                    <h3 class="exp-edu__box-title">COMPUTER SCIENCE</h3>
+                                                    <span class="exp-edu__box-andress"><i class="fa fa-book mr-2"></i>
+                                                            The University of Danang</span>
+                                                    <span class="exp-edu__box-time"><i class="fa fa-calendar mr-2"></i> Sept 2019 - May 2024
+                                                        </span>
+                                                    <p class="exp-edu__box-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut pariatur reprehenderit laudantium quos enim hic cupiditate quae aliquam eaque, nemo totam nisi. Illo neque ipsa odit tenetur assumenda a
+                                                        enim.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="grid">
+                                        <h2 class="exp-edu__title-list-box">EXPERIENCE</h2>
+                                        <div class="row no-gutters exp-edu__box">
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="exp-edu__box-content">
+                                                    <h3 class="exp-edu__box-title">COMPUTER SCIENCE</h3>
+                                                    <span class="exp-edu__box-andress"><i class="fa fa-book mr-2"></i>
+                                                            The University of Danang</span>
+                                                    <span class="exp-edu__box-time"><i class="fa fa-calendar mr-2"></i> Sept 2019 - May 2024
+                                                        </span>
+                                                    <p class="exp-edu__box-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut pariatur reprehenderit laudantium quos enim hic cupiditate quae aliquam eaque, nemo totam nisi. Illo neque ipsa odit tenetur assumenda a
+                                                        enim.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="exp-edu__box-content">
+                                                    <h3 class="exp-edu__box-title">COMPUTER SCIENCE</h3>
+                                                    <span class="exp-edu__box-andress"><i class="fa fa-book mr-2"></i>
+                                                            The University of Danang</span>
+                                                    <span class="exp-edu__box-time"><i class="fa fa-calendar mr-2"></i> Sept 2019 - May 2024
+                                                        </span>
+                                                    <p class="exp-edu__box-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut pariatur reprehenderit laudantium quos enim hic cupiditate quae aliquam eaque, nemo totam nisi. Illo neque ipsa odit tenetur assumenda a
+                                                        enim.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col l-12 m-12 c-12">
+                                                <div class="exp-edu__box-content">
+                                                    <h3 class="exp-edu__box-title">COMPUTER SCIENCE</h3>
+                                                    <span class="exp-edu__box-andress"><i class="fa fa-book mr-2"></i>
+                                                            The University of Danang</span>
+                                                    <span class="exp-edu__box-time"><i class="fa fa-calendar mr-2"></i> Sept 2019 - May 2024
+                                                        </span>
+                                                    <p class="exp-edu__box-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut pariatur reprehenderit laudantium quos enim hic cupiditate quae aliquam eaque, nemo totam nisi. Illo neque ipsa odit tenetur assumenda a
+                                                        enim.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="about__content skills">
+
+                            <h2 class="exp-edu__title ">SKILLS</h2>
+                            <div class="row no-gutter skills-box">
+
+                            </div>
+                        </div>
+                        <div class="about__content counter-number">
+                            <div class="row">
+                                <div class="col l-3 m-6 c-12">
+                                    <div class="counter-number__box">
+                                        <h4 class="counter-number__box-number">299</h4>
+                                        <p class="counter-number__box-text">HAPPY CUSTOMERS</p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 c-12">
+                                    <div class="counter-number__box">
+                                        <h4 class="counter-number__box-number">299</h4>
+                                        <p class="counter-number__box-text">HAPPY CUSTOMERS</p>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-6 c-12">
+                                    <div class="counter-number__box">
+                                        <h4 class="counter-number__box-number">299</h4>
+                                        <p class="counter-number__box-text">HAPPY CUSTOMERS</p>
+                                    </div>
+                                </div>
+                                <div class="col l-3 m-6 c-12">
+                                    <div class="counter-number__box">
+                                        <h4 class="counter-number__box-number">299</h4>
+                                        <p class="counter-number__box-text">HAPPY CUSTOMERS</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!--/==ABOUT ME== -->
+
+                <!--==servicer -->
+                <div id="services" class="services">
+                    <div class="grid wide">
+                        <div class="services__heading">
+                            <h2 class="services__heading-text">MY</h2>
+                            <h2 class="services__heading-primary">SERVICES</h2>
+                        </div>
+                        <div class="container__line">
+                            <div class="line-slide">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-4 m-6 c-12">
+                                <div class="services__box">
+                                    <div class="services__box-icon">
+                                        <i class="fab fa-css3-alt"></i>
+                                    </div>
+                                    <h4 class="services__box-title">
+                                        WEB DESIGN
+                                    </h4>
+                                    <p class="services__box-description">
+                                        There are many variations of passages of but the majoirity have suffered alteration
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12">
+                                <div class="services__box">
+                                    <div class="services__box-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <h4 class="services__box-title">
+                                        WEB DESIGN
+                                    </h4>
+                                    <p class="services__box-description">
+                                        There are many variations of passages of but the majoirity have suffered alteration
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12">
+                                <div class="services__box">
+                                    <div class="services__box-icon">
+                                        <i class="fas fa-paint-brush"></i>
+                                    </div>
+                                    <h4 class="services__box-title">
+                                        WEB DESIGN
+                                    </h4>
+                                    <p class="services__box-description">
+                                        There are many variations of passages of but the majoirity have suffered alteration
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12">
+                                <div class="services__box">
+                                    <div class="services__box-icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <h4 class="services__box-title">
+                                        WEB DESIGN
+                                    </h4>
+                                    <p class="services__box-description">
+                                        There are many variations of passages of but the majoirity have suffered alteration
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12">
+                                <div class="services__box">
+                                    <div class="services__box-icon">
+                                        <i class="far fa-chart-bar"></i>
+                                    </div>
+                                    <h4 class="services__box-title">
+                                        WEB DESIGN
+                                    </h4>
+                                    <p class="services__box-description">
+                                        There are many variations of passages of but the majoirity have suffered alteration
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12">
+                                <div class="services__box">
+                                    <div class="services__box-icon">
+                                        <i class="far fa-edit"></i>
+                                    </div>
+                                    <h4 class="services__box-title">
+                                        WEB DESIGN
+                                    </h4>
+                                    <p class="services__box-description">
+                                        There are many variations of passages of but the majoirity have suffered alteration
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- khách hàng lời chứng thực -->
+                        <div class="services__custom-testimonial">
+                            <h3 class="services__custom-testimonial-title">TESTIMONIAL</h3>
+                            <div class="services__custom-testimonial-box active">
+                                <img src="/assets/img/slider-logo.jpg" class="services__custom-testimonial-logo">
+
+                                </img>
+                                <p class="services__custom-testimonial-description">
+                                    <i> 1 Tam areof but the majoirity have suffered alteration of passages of but the majoirity have suffered alteration</i>
+                                </p>
+                                <span class="services__custom-testimonial-name">TAMA</span>
+
+                            </div>
+                            <div class="services__custom-testimonial-box">
+                                <img src="/assets/img/custom2.jpg" class="services__custom-testimonial-logo">
+
+                                </img>
+                                <p class="services__custom-testimonial-description">
+                                    <i> 2 There are many variations of passages of but the majoirity have suffered alteration There are many variations
+                                        ered alteration of passages of but the majoirity have suffered alteration</i>
+                                </p>
+                                <span class="services__custom-testimonial-name">TAM DEP TRAI</span>
+
+                            </div>
+                            <div class="services__custom-testimonial-box ">
+                                <img src="/assets/img/custom3.jpg " class="services__custom-testimonial-logo ">
+
+                                </img>
+                                <p class="services__custom-testimonial-description ">
+                                    <i> 3 There are many variations of passages of but the majoirity have suffered alteration There are many variations
+                                         of passages of but the majoirity have suffered alteration of passages of but the majoirity have suffered alteration</i>
+                                </p>
+                                <span class="services__custom-testimonial-name ">PHAM THANH TAM</span>
+
+                            </div>
+                            <div class="btn-control">
+                                <span class="btn-control-left " onclick="plusDivs(-1)">
+                                    <i class="fas fa-chevron-left "></i>
+                                </span>
+                                <span class="btn-control-right " onclick="plusDivs(1)">
+                                    <i class=" fas fa-chevron-right "></i>
+                                </span>
+                            </div>
+                            <ul class="services__custom-testimonial__indicators ">
+                                <li class="services__custom-testimonial__indicator active"></li>
+                                <li class="services__custom-testimonial__indicator  "></li>
+                                <li class="services__custom-testimonial__indicator "></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--/servicer -->
+
+                <!--portfolio -->
+                <div id="portfolio" class="portfolio">
+                    <div class="grid wide">
+
+                        <div class="portfolio__heading">
+                            <h2 class="portfolio__heading-text">MY</h2>
+                            <h2 class="portfolio__heading-primary">PORTFOLIO</h2>
+                        </div>
+
+                        <div class="container__line">
+                            <div class="line-slide"></div>
+                        </div>
+                        <div class="portfolio__btn-select">
+                            <button class="portfolio__btn btn btn-primary">ALL WORK</button>
+                            <button class="portfolio__btn btn ">DESIGN</button>
+                            <button class="portfolio__btn btn ">MUSIC</button>
+                            <button class="portfolio__btn btn ">VIDEOS</button>
+                        </div>
+
+
+                        <div class="row">
+
+                        </div>
+                        <div class="portfolio-overplay">
+                            <div class="portfolio__page-wrap">
+
+                                <div class="portfolio__wrap-content">
+                                    <!-- <iframe width="720px" height="420px" src="https://www.youtube.com/embed/bJNFDmfE-Dw">
+                                   </iframe> -->
+                                </div>
+                                <div class="portfolio__page-wrap-close">
+                                    <i class="fas fa-times portfolio__page-wrap-close-icon"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--/portfolio -->
+
+                <!-- == BLOG == -->
+                <div id="blog" class="blog">
+                    <div class="grid wide">
+                        <div class="blog__heading">
+                            <h2 class="blog__heading-text">MY</h2>
+                            <h2 class="blog__heading-primary">BLOG</h2>
+                        </div>
+                        <div class="container__line">
+                            <div class="line-slide"> </div>
+                        </div>
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- //== BLOG == -->
+
+                <!--==contact -->
+                <div id="contact" class="contact">
+                    <div class="grid wide">
+                        <div class="contact__heading">
+                            <h2 class="contact__heading-text">CONTACT</h2>
+                            <h2 class="contact__heading-primary">ME</h2>
+                        </div>
+                        <div class="container__line">
+                            <div class="line-slide"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="contact__card">
+                                    <div class="contact__card-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact__card-content">
+                                        <h3 class="contact__card-content-title">MY ADDRESS</h3>
+                                        <p class="contact__card-content-details">Phu Ninh - Quang Nam - VN</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="contact__card">
+                                    <div class="contact__card-icon">
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                    <div class="contact__card-content">
+                                        <h3 class="contact__card-content-title">SOCIAL PROFILES</h3>
+                                        <p class="contact__card-content-details">
+                                            <a href="" class="contact__card-content-details-link ">
+                                                <i class="fab fa-facebook-square"></i>
+
+                                            </a>
+
+                                            <a href="" class="contact__card-content-details-link">
+                                                <i class="fab fa-tiktok"></i>
+
+                                            </a>
+
+                                            <a href="" class="contact__card-content-details-link">
+                                                <i class="fab fa-youtube"></i>
+
+                                            </a>
+
+                                            <a href="" class="contact__card-content-details-link">
+                                                <i class="fab fa-github-square"></i>
+
+                                            </a>
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="contact__card">
+                                    <div class="contact__card-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact__card-content">
+                                        <h3 class="contact__card-content-title">EMAIL ME</h3>
+                                        <p class="contact__card-content-details">
+                                            <a href="mailto:pttquangnam@gmail.com">pttquangnam@gmail.com</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="contact__card">
+                                    <div class="contact__card-icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="contact__card-content">
+                                        <h3 class="contact__card-content-title">CALL ME</h3>
+                                        <p class="contact__card-content-details">
+                                            <a href="tel:0339045945">(+84) 339 045 945</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group form-contact ">
+                            <div class="row">
+
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <textarea class="form-control form-control-area" rows="4" placeholder="Type Your Message" required=""></textarea>
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <button class="btn btn-sent"><i class="fab fa-telegram-plane btn-sent-icon"></i>SEND MESAGE</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!--//==contact -->
+
+                <!--  MAP-->
+                <div id="map"></div>
+
+                <!-- model -->
+                <div class="model">
+                    <div class="model__overplay"></div>
+                    <div class="blog__details">
+                    </div>
+                </div>
+                <!--// model -->
+            </div>
+
+            <!-- footer -->
+            <footer id="footer">
+                <p class="footer-content">© 2021 Tama - Clone Kamal</p>
+            </footer>
+            <!--/ footer -->
+
+            <!-- choose color -->
+            <div class="choose-color">
+                <h3 class="choose-color-title">CHOOSE COLOR</h3>
+                <ul class="choose-color__list ">
+                </ul>
+                <div class="setting-color">
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+            <!--/ choose color -->
+
+            <!-- btn slide -->
+            <a href="#" class="btn-slide-up">
+                <i class="fas fa-angle-double-up"></i>
+            </a>
+            <!--/ btn slide up -->
+
+            <script src="/assets/javascript/index.js "></script>
+            <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHIgBs2T6M-NfXBMKsA4ffgCFiip9rwb4&callback=initMap&libraries=&v=weekly" async>
+            </script> -->
+
+</body>
+
+</html>

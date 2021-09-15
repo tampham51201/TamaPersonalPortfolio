@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css?family=Saira:100,200,300,400,500,600,700,800,900&display=swap";
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #766e66;
+    /* --primary-color: rgb(36, 206, 36); */
+    --primary-color: rgb(255, 30, 86);
+    --header-height: 60px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    line-height: 16px;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    --height-btn: 46px;
+    height: var(--height-btn);
+    line-height: var(--height-btn);
+    color: var(--white-color);
+    background-color: #666666;
+    min-width: 150px;
+    max-width: 200px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn.btn-primary {
+    background-color: var(--primary-color);
+}

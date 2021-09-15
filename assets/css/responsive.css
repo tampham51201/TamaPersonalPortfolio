@@ -1,0 +1,116 @@
+            /* responsive mobile & tablet */
+            
+            @media (max-width:1023px) {
+                 :root {
+                    --header-height: 46px;
+                }
+                .hide-on-tablet-mobile {
+                    display: none;
+                }
+                .slider__container {
+                    display: inline-block;
+                    text-align: center;
+                }
+                .slider__logo {
+                    margin: auto;
+                }
+                .slider__content-icon__list {
+                    justify-content: center;
+                }
+                .header__mobile-tablet-icon {
+                    display: block;
+                }
+                .blog__details {
+                    width: 90%;
+                    padding: 10px 16px;
+                }
+                .blog__details-tag,
+                .blog__details-share {
+                    width: 100%;
+                }
+                .blog__details-share {
+                    margin-top: 10px;
+                }
+            }
+            /* responsive tablet */
+            
+            @media (min-width:740px) and (max-width:1023px) {
+                .hide-on-tablet {
+                    display: none;
+                }
+                .slider__logo-img {
+                    width: 220px;
+                }
+                .about-details__list {
+                    padding-left: 0;
+                }
+            }
+            /* responsive mobile */
+            
+            @media (max-width:739px) {
+                .hide-on-mobile {
+                    display: none;
+                }
+                .slider__content {
+                    min-width: 300px;
+                }
+                .slider__logo-img {
+                    width: 140px;
+                }
+                .slider__content-btn {
+                    min-width: 280px;
+                    margin-bottom: 5px;
+                    height: 40px;
+                    line-height: 40px;
+                }
+                .about-details__list {
+                    padding-left: 0px;
+                }
+                .about-details {
+                    padding: 0;
+                    margin-bottom: -14px;
+                }
+                .about__content {
+                    padding-left: 10px;
+                }
+                .about__heading,
+                .services__heading .contact {
+                    font-size: 2.2rem;
+                }
+                .skills-box {
+                    margin-left: -5px;
+                    margin-right: 5px;
+                }
+                .counter-number__box {
+                    margin-left: 0;
+                    margin-right: 14px;
+                }
+                .services__custom-testimonial {
+                    margin: 0 12px;
+                }
+                .services__custom-testimonial-description {
+                    min-height: 100px;
+                }
+                .portfolio__btn-select {
+                    flex-wrap: wrap;
+                    margin-bottom: 20px;
+                }
+                .portfolio__btn {
+                    min-width: 160px;
+                    margin-bottom: 10px;
+                    min-height: 50px;
+                }
+                .portfolio__wrap,
+                .blog__card,
+                .services__box {
+                    margin-left: 12px;
+                    margin-right: 12px;
+                }
+                .contact {
+                    margin: 0 12px;
+                }
+                .btn-slide-up {
+                    bottom: 8px;
+                    right: 5px;
+                }
+            }
