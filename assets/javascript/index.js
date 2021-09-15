@@ -385,7 +385,7 @@ function renderPortfolio() {
     let portfolioEle = $(".portfolio .row")
 
     let portfoliosList = [{
-            img: "/assets/img/img-1.jpg",
+            img: "./assets/img/img-1.jpg",
             icon: "fas fa-image",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -399,7 +399,7 @@ function renderPortfolio() {
             share: "#"
         },
         {
-            img: "/assets/img/music-1.jpg",
+            img: "./assets/img/music-1.jpg",
             icon: "fas fa-music",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -413,7 +413,7 @@ function renderPortfolio() {
             share: "#"
         },
         {
-            img: "/assets/img/video-2.png",
+            img: "./assets/img/video-2.png",
             icon: "fab fa-youtube",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -427,7 +427,7 @@ function renderPortfolio() {
             share: "#"
         },
         {
-            img: "/assets/img/img-2.jpg",
+            img: "./assets/img/img-2.jpg",
             icon: "fas fa-image",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -442,7 +442,7 @@ function renderPortfolio() {
         },
 
         {
-            img: "/assets/img/video-1.jpeg",
+            img: "./assets/img/video-1.jpeg",
             icon: "fab fa-youtube",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -457,7 +457,7 @@ function renderPortfolio() {
         },
 
         {
-            img: "/assets/img/video-1.jpeg",
+            img: "./assets/img/video-1.jpeg",
             icon: "fab fa-youtube",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -471,7 +471,7 @@ function renderPortfolio() {
             share: "#"
         },
         {
-            img: "/assets/img/music-1.jpg",
+            img: "./assets/img/music-1.jpg",
             icon: "fas fa-music",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -485,7 +485,7 @@ function renderPortfolio() {
             share: "#"
         },
         {
-            img: "/assets/img/music-1.jpg",
+            img: "./assets/img/music-1.jpg",
             icon: "fas fa-music",
             link: "#",
             title: "PROJECT DESIGN 1",
@@ -500,7 +500,7 @@ function renderPortfolio() {
         },
 
         {
-            img: "/assets/img/img-1.jpg",
+            img: "./assets/img/img-1.jpg",
             icon: "fas fa-image",
             link: "#",
             title: "PROJECT DESIGN 1",
